@@ -112,7 +112,7 @@ export default function ForwardFRAPage() {
           
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div className="bg-white p-4 rounded border">
-              <h4 className="font-semibold text-red-700 mb-3">Cas 1 : Taux marché > Taux garanti</h4>
+              <h4 className="font-semibold text-red-700 mb-3">Cas 1 : Taux marché &gt; Taux garanti</h4>
               <p className="text-gray-700 text-sm">
                 Le <strong>vendeur du FRA</strong> verse le différentiel d'intérêts 
                 à l'<strong>acheteur du FRA</strong>
@@ -120,7 +120,7 @@ export default function ForwardFRAPage() {
             </div>
             
             <div className="bg-white p-4 rounded border">
-              <h4 className="font-semibold text-blue-700 mb-3">Cas 2 : Taux marché < Taux garanti</h4>
+              <h4 className="font-semibold text-blue-700 mb-3">Cas 2 : Taux marché &lt; Taux garanti</h4>
               <p className="text-gray-700 text-sm">
                 L'<strong>acheteur du FRA</strong> verse le différentiel d'intérêts 
                 au <strong>vendeur du FRA</strong>
@@ -144,7 +144,7 @@ export default function ForwardFRAPage() {
                   <td className="border border-gray-300 p-3 text-center">Taux minimum</td>
                   <td className="border border-gray-300 p-3 text-center text-red-600">Vend un FRA</td>
                   <td className="border border-gray-300 p-3 text-center text-sm">
-                    Si taux référence < taux garanti,<br/>différence versée par acheteur
+                    Si taux référence &lt; taux garanti,<br/>différence versée par acheteur
                   </td>
                 </tr>
                 <tr>
@@ -152,7 +152,7 @@ export default function ForwardFRAPage() {
                   <td className="border border-gray-300 p-3 text-center">Taux maximum</td>
                   <td className="border border-gray-300 p-3 text-center text-green-600">Achète un FRA</td>
                   <td className="border border-gray-300 p-3 text-center text-sm">
-                    Si taux référence > taux garanti,<br/>différence versée par vendeur
+                    Si taux référence &gt; taux garanti,<br/>différence versée par vendeur
                   </td>
                 </tr>
               </tbody>
@@ -189,7 +189,7 @@ export default function ForwardFRAPage() {
               </h4>
               <div className="space-y-2">
                 <div className="bg-gray-50 p-3 rounded font-mono text-sm">
-                  <p>Taux marché (2,9%) > Taux garanti (2,5%)</p>
+                  <p>Taux marché (2,9%) &gt; Taux garanti (2,5%)</p>
                   <p>Différentiel = 2,9% - 2,5% = 0,4%</p>
                   <p className="text-green-600 font-semibold">
                     Banque verse : 10M€ &times; 0,4% &times; 3/12 = 10 000€
@@ -208,7 +208,7 @@ export default function ForwardFRAPage() {
               </h4>
               <div className="space-y-2">
                 <div className="bg-gray-50 p-3 rounded font-mono text-sm">
-                  <p>Taux marché (2,3%) < Taux garanti (2,5%)</p>
+                  <p>Taux marché (2,3%) &lt; Taux garanti (2,5%)</p>
                   <p>Différentiel = 2,5% - 2,3% = 0,2%</p>
                   <p className="text-red-600 font-semibold">
                     Entreprise verse : 10M€ &times; 0,2% &times; 3/12 = 5 000€
