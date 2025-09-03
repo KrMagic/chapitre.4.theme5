@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ComponentType, type SVGProps } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Home, BookOpen, TrendingUp, BarChart3, Target, Brain, FileText } from "lucide-react";
@@ -8,7 +8,7 @@ import { Menu, X, Home, BookOpen, TrendingUp, BarChart3, Target, Brain, FileText
 interface NavigationItem {
   title: string;
   href: string;
-  icon: React.ComponentType<any>;
+  icon: ComponentType<SVGProps<SVGSVGElement>>;
   color: string;
 }
 

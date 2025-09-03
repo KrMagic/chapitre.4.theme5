@@ -89,8 +89,8 @@ export default function Section3Page() {
                   <p><strong>Objectif :</strong> Limiter le taux entre 2% et 4%</p>
                   <p><strong>Solution :</strong></p>
                   <ul className="list-disc list-inside ml-4 space-y-1">
-                    <li>Achat d'un CAP à 4% (coût : 0,15% du nominal)</li>
-                    <li>Vente d'un FLOOR à 2% (prime reçue : 0,10% du nominal)</li>
+                    <li>Achat d&apos;un CAP à 4% (coût : 0,15% du nominal)</li>
+                    <li>Vente d&apos;un FLOOR à 2% (prime reçue : 0,10% du nominal)</li>
                     <li>Coût net du COLLAR : 0,05% du nominal = 5 000€</li>
                   </ul>
                   <p><strong>Résultat :</strong></p>
